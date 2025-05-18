@@ -2,10 +2,11 @@
 OmniCellX enables you to provide a browser-based interface to analysis or visualize single cell data.
 
 # How to installation
+Firstly, users should pull the docker image:
 ```
 docker pull longrw/omnicellx
 ```
-then
+then start an app container:
 ```
 docker run -itd -p 8000:8000 longrw/omnicellx
 ```
