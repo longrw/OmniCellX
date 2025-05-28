@@ -1,6 +1,8 @@
 # OmniCellX
 OmniCellX enables you to provide a browser-based interface to analysis or visualize single cell data.
 
+<img src="./overview.png" alt="overview" width="800" />
+
 # Features
 <ul>
   <li><b>Docker-based installation</b>: Simplifies deployment with no configuration needed, ensuring scalability for both small and large datasets.</li>
