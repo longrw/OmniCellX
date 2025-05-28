@@ -27,4 +27,4 @@ docker run -itd -p yourIP:8000:8000 -e ALLOWED_HOSTS="yourIP" longrw/omnicellx
 After successful installation, user can use omnicellx by `http://localhost:8000/omnicellx/`(local) or `http://yourIP:8000/omnicellx/`(server) through the web browser.
 
 # testdata
-For application testing purposes, two sample datesets are included. These datasets were collected from https://figshare.com/articles/dataset/NeurIPS_2021_Benchmark_dataset/22716739.
+For application testing purposes, two sample datesets are included. These datasets were collected from https://figshare.com/articles/dataset/NeurIPS_2021_Benchmark_dataset/22716739 using the 10X Multiome Gene Expression kit.
