@@ -1,7 +1,7 @@
 # OmniCellX
 OmniCellX enables you to provide a browser-based interface to analysis or visualize single cell data.
 
-Features include:
+<b>Features include</b>:
 <ul>
   <li><b>Docker-based installation</b>: Simplifies deployment with no configuration needed, ensuring scalability for both small and large datasets.</li>
   <li><b>Dual-mode operation</b>:<ol><li>Analysis mode: Integrates tools for dimensionality reduction, clustering, differential expression, cell-cell communication, and trajectory inference.</li><li>Visualization mode: Offers interactive, customizable visuals for publication-ready figures.</li></ol></li>
@@ -11,7 +11,7 @@ Features include:
   <li><b>Comprehensive documentation</b>: Detailed guides and tutorials for troubleshooting and advanced use cases.</li>
 </ul>
 
-# How to installation
+# Deployment and Usage
 Firstly, users should pull the docker image:
 ```
 docker pull longrw/omnicellx
