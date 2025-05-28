@@ -3,7 +3,7 @@ OmniCellX enables you to provide a browser-based interface to analysis or visual
 
 <img src="./overview.png" alt="overview" width="800" />
 
-# Features
+# Key Features
 <ul>
   <li><b>Docker-based installation</b>: Simplifies deployment with no configuration needed, ensuring scalability for both small and large datasets.</li>
   <li><b>Dual-mode operation</b>:<ol><li>Analysis mode: Integrates tools for dimensionality reduction, clustering, differential expression, cell-cell communication, and trajectory inference.</li><li>Visualization mode: Offers interactive, customizable visuals for publication-ready figures.</li></ol></li>
@@ -14,18 +14,17 @@ OmniCellX enables you to provide a browser-based interface to analysis or visual
 </ul>
 
 # Deployment and Usage
-Firstly, users should pull the docker image:
+On local machines:
 ```
 docker pull longrw/omnicellx
-```
-then start an app container:
-```
 docker run -itd -p 8000:8000 longrw/omnicellx
 ```
-or
+or server:
 ```
+docker pull longrw/omnicellx
 docker run -itd -p yourIP:8000:8000 -e ALLOWED_HOSTS="yourIP" longrw/omnicellx
 ```
-After installation, user can use omnicellx by `http://localhost:8000/omnicellx/` or `http://yourIP:8000/omnicellx/` through the web browser.
+After successful installation, user can use omnicellx by `http://localhost:8000/omnicellx/`(local) or `http://yourIP:8000/omnicellx/`(server) through the web browser.
 
 # testdata
+For application testing purposes, two sample datesets are included. These datasets were collected from https://figshare.com/articles/dataset/NeurIPS_2021_Benchmark_dataset/22716739.
