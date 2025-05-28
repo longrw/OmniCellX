@@ -2,6 +2,10 @@
 OmniCellX enables you to provide a browser-based interface to analysis or visualize single cell data.
 
 Features include:
+<ul>
+  <li>a</li>
+  <li>b</li>
+</ul>
 
 # How to installation
 Firstly, users should pull the docker image:
