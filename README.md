@@ -3,8 +3,8 @@ OmniCellX enables you to provide a browser-based interface to analysis or visual
 
 Features include:
 <ul>
-  <li>a</li>
-  <li>b</li>
+  <li><b>Docker-based installation</b>: Simplifies deployment with no configuration needed, ensuring scalability for both small and large datasets.</li>
+  <li><b>Dual-mode operation</b>:<li>Analysis mode: Integrates tools for dimensionality reduction, clustering, differential expression, cell-cell communication, and trajectory inference.</li></li>
 </ul>
 
 # How to installation
