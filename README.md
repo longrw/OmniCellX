@@ -16,13 +16,13 @@ OmniCellX enables you to provide a browser-based interface to analysis or visual
 # Deployment and Usage
 On local machines:
 ```
-docker pull longrw/omnicellx
-docker run -itd -p 8000:8000 longrw/omnicellx
+docker pull longrw/omnicellx:latest
+docker run -itd -p 8000:8000 longrw/omnicellx:latest
 ```
 or server:
 ```
-docker pull longrw/omnicellx
-docker run -itd -p serverIP:8000:8000 -e ALLOWED_HOSTS="serverIP" longrw/omnicellx
+docker pull longrw/omnicellx:latest
+docker run -itd -p serverIP:8000:8000 -e ALLOWED_HOSTS="serverIP" longrw/omnicellx:latest
 ```
 After successful installation, user can use omnicellx by `http://localhost:8000/omnicellx/`(<b>local</b>) or `http://serverIP:8000/omnicellx/`(<b>server</b>) through the web browser. Note that the `serverIP` should be replaced by real server IP address.
 
