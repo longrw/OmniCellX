@@ -22,7 +22,7 @@ docker run -itd -p 8000:8000 longrw/omnicellx
 or server:
 ```
 docker pull longrw/omnicellx
-docker run -itd -p yourIP:8000:8000 -e ALLOWED_HOSTS="serverIP" longrw/omnicellx
+docker run -itd -p serverIP:8000:8000 -e ALLOWED_HOSTS="serverIP" longrw/omnicellx
 ```
 After successful installation, user can use omnicellx by `http://localhost:8000/omnicellx/`(<b>local</b>) or `http://serverIP:8000/omnicellx/`(<b>server</b>) through the web browser. Note that the `serverIP` should be replaced by real server IP address.
 
