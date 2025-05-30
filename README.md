@@ -14,12 +14,12 @@ OmniCellX enables you to provide a browser-based interface to analysis or visual
 </ul>
 
 # Deployment and Usage
-On local machines:
+On local machines :
 ```
 docker pull longrw/omnicellx:latest
 docker run -itd -p 8000:8000 longrw/omnicellx:latest
 ```
-or server:
+or server :
 ```
 docker pull longrw/omnicellx:latest
 docker run -itd -p serverIP:8000:8000 -e ALLOWED_HOSTS="serverIP" longrw/omnicellx:latest
