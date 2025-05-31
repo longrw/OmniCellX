@@ -19,7 +19,7 @@ On local machines :
 docker pull longrw/omnicellx:latest
 docker run -itd -p 8000:8000 longrw/omnicellx:latest
 ```
-or server :
+or server (<b>recommend</b>) :
 ```
 docker pull longrw/omnicellx:latest
 docker run -itd -p serverIP:8000:8000 -e ALLOWED_HOSTS="serverIP" longrw/omnicellx:latest
