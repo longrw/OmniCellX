@@ -31,8 +31,8 @@ For application testing purposes, two sample datesets are included. These datase
 
 # Documentations
 - [Quick Start](#quick-start)
-  - [1. Analysis Mode(OmniCellX as Analyzer)](#1-analysis-mode-omnicellx-as-analyzer)
-  - [2. Visualization Mode(OmniCellX as Browser)](#2-visualization-mode-omnicellx-as-browser)
+  - [1. Analysis Mode(OmniCellX as Analyzer)](#1-analysis-modeomnicellx-as-analyzer)
+  - [2. Visualization Mode(OmniCellX as Browser)](#2-visualization-modeomnicellx-as-browser)
 - [Analyzer Mode](#analyzer-mode)
   - [Preprocessing & Clustering](#preprocessing-clustering)
     - [1. Filtering](#1-filtering)
