@@ -1,5 +1,5 @@
 # OmniCellX
-OmniCellX enables you to provide a browser-based interface to analysis or visualize single cell data.
+OmniCellX enables you to provide a browser-based interface to analyze or visualize single-cell data.
 
 <img src="./overview.png" alt="overview" width="800" />
 
@@ -14,17 +14,17 @@ OmniCellX enables you to provide a browser-based interface to analysis or visual
 </ul>
 
 # Deployment and Usage
-On local machines :
+<b>On local machines</b> :
 ```
 docker pull longrw/omnicellx:latest
 docker run -itd -p 8000:8000 longrw/omnicellx:latest
 ```
-or server (<b>recommend</b>) :
+<b>or server (recommend)</b> :
 ```
 docker pull longrw/omnicellx:latest
 docker run -itd -p serverIP:8000:8000 -e ALLOWED_HOSTS="serverIP" longrw/omnicellx:latest
 ```
-After successful installation, user can use omnicellx by `http://localhost:8000/omnicellx/`(<b>local</b>) or `http://serverIP:8000/omnicellx/`(<b>server</b>) through the web browser. Note that the `serverIP` should be replaced by real server IP address.
+After successful installation, user can use omnicellx by `http://localhost:8000/omnicellx/`(<b>local</b>) or `http://serverIP:8000/omnicellx/`(<b>server</b>) through the web browser. Note that the `serverIP` should be replaced by real server IP address. The detailed tutorials can be visited by clicking [![Help](https://img.shields.io/badge/HELP-blue?style=for-the-badge&logo=questionmark)](#) in the upper right corner of the tool page.
 
 # testdata
 For application testing purposes, two sample datesets are included. These datasets were collected from https://figshare.com/articles/dataset/NeurIPS_2021_Benchmark_dataset/22716739 using the 10X Multiome Gene Expression kit.
