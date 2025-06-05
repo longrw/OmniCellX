@@ -19,7 +19,7 @@ OmniCellX enables you to provide a browser-based interface to analyze or visuali
 docker pull longrw/omnicellx:latest
 docker run -itd -p 8000:8000 longrw/omnicellx:latest
 ```
-<b>or server (recommend)</b> :
+<b>or server (recommended)</b> :
 ```
 docker pull longrw/omnicellx:latest
 docker run -itd -p serverIP:8000:8000 -e ALLOWED_HOSTS="serverIP" longrw/omnicellx:latest
