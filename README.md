@@ -15,6 +15,7 @@ OmniCellX enables you to provide a browser-based interface to analyze or visuali
 
 # Deployment and Usage
 To install OmniCellX, you need to have Docker installed on your machine. Docker needs to be properly installed and configured in the user's machine.
+
 <b>On local machines</b> :
 ```
 docker pull longrw/omnicellx:latest
