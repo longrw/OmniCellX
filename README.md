@@ -180,4 +180,6 @@ Unlike FeaturePlot, VlnPlot and DotPlot displays the expression of a group of ma
 
 # Citation
 If you use OmniCellX in your research, please considering citing:
-OmniCellX: A Versatile and Comprehensive Browser-Based Tool for Single-Cell RNA Sequencing Analysis. doi: <a href="https://doi.org/10.3390/biology14101437" target="_blank">10.3390/biology14101437</a>
+<ul>
+<li>OmniCellX: A Versatile and Comprehensive Browser-Based Tool for Single-Cell RNA Sequencing Analysis. doi: <a href="https://doi.org/10.3390/biology14101437" target="_blank">10.3390/biology14101437</a></li>
+</ul>
